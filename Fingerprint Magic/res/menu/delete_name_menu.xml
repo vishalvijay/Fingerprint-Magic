@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/deleteAll"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete_all">
+    </item>
+    <item
+        android:id="@+id/rateApp"
+        android:icon="@drawable/star"
+        android:title="@string/rate_the_app">
+    </item>
+    <item
+        android:id="@+id/preference"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Preference">
+    </item>
+    <item
+        android:id="@+id/reportBug"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/report_bug">
+    </item>
+    <item
+        android:id="@+id/help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/help">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about">
+    </item>
+
+</menu>

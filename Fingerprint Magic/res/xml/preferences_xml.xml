@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencescreen" >
+
+    <PreferenceCategory android:title="Feedbacks" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isSoundEnabled"
+            android:summary="Enable or disable sound effects"
+            android:title="Sound effects" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isVibrationEnabled"
+            android:summary="Enable or disable vibration feedbacks"
+            android:title="Vibrations" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="performance"
+        android:title="Performance" >
+        <ListPreference
+            android:defaultValue="10000"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            android:key="internetCheckingDelay"
+            android:summary="Improve performance by giving high value"
+            android:title="Internet checking delay" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isOnExitDeleteCurrentName"
+            android:summary="Delete value from server when exiting"
+            android:title="Delete name when exiting" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="important"
+        android:title="Important" >
+        <EditTextPreference
+            android:hint="User id"
+            android:inputType="number"
+            android:key="userid"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:summary="To communicate with our server please set user id"
+            android:title="Set user id" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="appsettings"
+        android:title="App settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isShowHidenButton"
+            android:summary="To see app hidden buttons"
+            android:title="Show hidden buttons" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="showHelpOnlyInServerMode"
+            android:summary="To hide help from others"
+            android:title="Show help only in Server Mode" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alertbg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:maxLength="20"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/registerButton"
+        style="@style/ButtonAppTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneNumberEditText"
+        android:background="@drawable/black_button"
+        android:text="@string/register" >
+    </Button>
+
+</RelativeLayout>
+<!-- author Vishal Vijay -->

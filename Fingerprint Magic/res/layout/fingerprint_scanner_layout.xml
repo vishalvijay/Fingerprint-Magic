@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fingerButtonRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/fg_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/fingerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/finger_button"
+            android:soundEffectsEnabled="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fingerButtonRelativeLayout"
+        android:background="@drawable/commen_label"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/keep_your_finger_on_scanner_"
+        android:textAlignment="gravity"
+        android:textColor="#0bc425"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/statusTextView"
+        android:background="@drawable/lb2"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/hai_i_can_find_your_name"
+        android:textAlignment="gravity"
+        android:textColor="#0bc425"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/internetStatusTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fingerButtonRelativeLayout"
+        android:background="@drawable/commen_label"
+        android:drawableTop="@drawable/red"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/internet_connection"
+        android:textAlignment="gravity"
+        android:textColor="#0bc425" />
+
+    <Button
+        android:id="@+id/nameChooseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/transparent2"
+        android:soundEffectsEnabled="false" />
+
+</RelativeLayout><!-- author Vishal Vijay -->

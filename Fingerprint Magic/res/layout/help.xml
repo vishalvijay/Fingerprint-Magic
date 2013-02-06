@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alertbg"
+    android:fadingEdge="none"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/firstShowWebView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <CheckBox
+            android:id="@+id/showHelpOnlyInServerModeCheckBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_help_only_in_server_mode" />
+
+        <Button
+            android:id="@+id/okButton"
+            style="@style/ButtonAppTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_button"
+            android:text="@string/ok" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>
+<!-- author Vishal Vijay -->

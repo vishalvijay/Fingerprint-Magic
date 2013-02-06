@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alertbg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tempTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/userIdEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tempTextView1"
+        android:hint="@string/user_id_hint"
+        android:inputType="number"
+        android:maxLength="16"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tempTextView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userIdEditText" />
+
+    <Button
+        android:id="@+id/setUserIdButton"
+        style="@style/ButtonAppTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tempTextView2"
+        android:background="@drawable/black_button"
+        android:text="@string/set_user_id" >
+    </Button>
+
+</RelativeLayout>
+<!-- author Vishal Vijay -->

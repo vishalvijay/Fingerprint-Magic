@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="version">Version : %s</string>
+    <string name="homepage">Homepage : http://v4.vtulife.com</string>
+    <string name="email">Email : v4appfarm@gmail.com</string>
+    <string name="app_description">Description :\nFingerprint magic can tell you who you are by scanning your fingerprint. Its a project under V4 Creations AppFarm (V4 AppFarm). We are new to android app development so we need your support. We expect your feedbacks.</string>
+    <string name="support">Support from :\n\twww.techkochi.com\n\tMatrix Inc.\n\tVisitor Id ( http://www.youtube.com/user/visitorsid )</string>
+    <string name="app_name">Fingerprint Magic</string>
+    <string name="register">Register</string>
+    <string name="deleted">&#160;deleted.</string>
+    <string name="error_occured_while_deleting">Error occurred while deleting&#160;</string>
+    <string name="full_stop">.</string>
+    <string name="all_names_deleted">All name(s) deleted.</string>
+    <string name="error_in_deleting_all_name">Error in deleting all names.</string>
+    <string name="registration_internet_error">Sorry, registration failed. Internet connection not available.</string>
+    <string name="invalid_phone_number_error">Sorry, its a invalid phonenumber. Please try other.</string>
+    <string name="invalid_name_error">Sorry, its a invalid name. Please try other.</string>
+
+    <string-array name="status_message">
+        <item>Keep your finger on scanner.</item>
+        <item>Fingerprint ditection started.</item>
+        <item>Scanning...</item>
+        <item>Fingerprint detected.</item>
+        <item>You can take your finger.</item>
+        <item>Sorry, fingerprint not detected.</item>
+        <item>Please wait...</item>
+    </string-array>
+    <string-array name="message">
+        <item>Hai, I can find your name.</item>
+        <item>Give me your fingerprint.</item>
+        <item>I will show you who I\'m.</item>
+    </string-array>
+    <string-array name="result_message">
+        <item>Waiting for your fingerprint to scan.</item>
+        <item>I\'m sorry, our server down. Try again.</item>
+        <item>Haaaa, I got your name...</item>
+        <item>Hello&#160;</item>
+        <item>Sending fingerprint to server.</item>
+        <item>Ok. I got your fingerprint.</item>
+        <item>Still waiting for server response.</item>
+        <item>Sorry, your name not found.</item>
+    </string-array>
+
+    <string name="single_mode_enabled">Single mode enabled.</string>
+    <string name="sorry_error_in_internet_connection">Sorry, internet connection not available.</string>
+    <string name="user_id_sucessfully_selected">User id sucessfully selected.</string>
+    <string name="set_user_id">Set user id</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="exit">Exit</string>
+    <string name="selected_name_not_yet">Selected name : Name not yet selected.</string>
+    <string name="selected_name  ">Selected name :&#160;</string>
+    <string name="user_id">User Id :&#160;</string>
+    <string name="user_id_hint">User Id</string>
+    <string name="please_enter_a_name">Please enter a name.</string>
+    <string name="duplicate_entry">Sorry, duplicate enry is not allowed.</string>
+    <string name="successfully_added">&#160;successfully added.</string>
+    <string name="deleting_selected_name_from_server">Please wait...\nDeleting selected name from server...</string>
+    <string name="deletion_failed_internet_not_available">Sorry, deletion failed. Internet connection not available.</string>
+    <string name="no_name_in_server">There is no name in server to delete.</string>
+    <string name="sorry_deletion_failed">Sorry, deletion failed.</string>
+    <string name="name_deleted_from_server">Name successfully deleted from server.</string>
+    <string name="cant_give_name">Sorry, can\'t give the name. Check user id.</string>
+    <string name="please_wait_sending">Please wait...\nSending&#160;</string>
+    <string name="to_server">&#160;to server...</string>
+    <string name="sending_failed_internet_not_available">Sorry, sending failed. Internet connection not available.</string>
+    <string name="successfully_send">&#160;successfully send.</string>
+    <string name="sorry_sending_failed">Sorry, sending failed.</string>
+    <string name="please_wait_registering">Please wait...\nRegistering your licence...</string>
+    <string name="user_successfully_registered">User successfully registered.</string>
+    <string name="error_in_registration">Sorry, registration failed. Try again later. Exiting...</string>
+    <string name="name">Name</string>
+    <string name="add_name">Add name</string>
+    <string name="keep_your_finger_on_scanner_">Keep your finger on scanner.</string>
+    <string name="hai_i_can_find_your_name">Hai I can find your name</string>
+    <string name="internet_connection">Internet connection</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone number</string>
+    <string name="server_mode">Server Mode</string>
+    <string name="note_set_your_user_id_on_associatted_phone_">Note : Set your user id on associated phone.</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="note_choose_menu_to_add_or_remove_names_">Note : Choose menu to add or remove names.</string>
+    <string name="note_click_on_the_name_to_delete_it_choose_menu_for_delete_all_">Note : Click on the name to delete it. Choose menu for delete all.</string>
+    <string name="advatisement">Advatisement</string>
+    <string name="deleteName">Delete name</string>
+    <string name="rate_the_app">Rate the app</string>
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="delete_all">Delete all</string>
+    <string name="unable_to_find_google_play_app">Unable to find google play app.</string>
+    <string name="error_in_reportting_bug">Error in reportting bug.</string>
+    <string name="bug_successfully_reported">Bug successfully reported.</string>
+    <string name="report_bug">Report bug</string>
+    <string name="bug_report">Bug report</string>
+    <string name="report">Report</string>
+    <string name="bug_report_should_be_at_least_10_character">Bug report should be at least 10 character.</string>
+    <string name="internet_connection_no_available">Internet connection not available.</string>
+    <string name="please_wait_reporting_bug">Please wait...\nReporting bug...</string>
+    <string name="show_hiden_buttons_">Show hidden buttons.</string>
+    <string name="don_apos_t_show_this_again_">Don\'t show this again.</string>
+    <string name="ok">Ok</string>
+    <string name="show_help_only_in_server_mode">Show help only in Server Mode</string>
+    <string name="now_you_can_see_the_help_only_in_server_mode">Now you can see the help only in server mode.</string>
+    <string name="dont_have_permmision_to_see_help_from_here">Soory, you don\'t have permission to see help from here.\nPlease go to&#160;</string>
+
+</resources>

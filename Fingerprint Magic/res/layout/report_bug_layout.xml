@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alertbg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/phoneModelTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/bugReportEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/phoneModelTextView"
+        android:hint="@string/bug_report"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:maxLength="500" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/reportButton"
+        style="@style/ButtonAppTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bugReportEditText"
+        android:background="@drawable/black_button"
+        android:text="@string/report" >
+    </Button>
+
+</RelativeLayout>
+<!-- author Vishal Vijay -->
